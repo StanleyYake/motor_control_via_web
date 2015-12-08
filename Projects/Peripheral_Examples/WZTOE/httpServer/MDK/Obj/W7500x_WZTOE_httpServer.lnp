@@ -1,0 +1,22 @@
+--cpu Cortex-M0
+".\obj\startup_w7500x.o"
+".\obj\w7500x_crg.o"
+".\obj\w7500x_gpio.o"
+".\obj\w7500x_uart.o"
+".\obj\w7500x_wztoe.o"
+".\obj\w7500x_pwm.o"
+".\obj\system_w7500x.o"
+".\obj\main.o"
+".\obj\retarget.o"
+".\obj\w7500x_it.o"
+".\obj\socket.o"
+".\obj\wizchip_conf.o"
+".\obj\httpparser.o"
+".\obj\httpserver.o"
+".\obj\httputil.o"
+".\obj\w7500x_miim.o"
+".\obj\loopback.o"
+--strict --scatter ".\Obj\W7500x_WZTOE_httpServer.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\W7500x_WZTOE_httpServer.map" -o .\Obj\W7500x_WZTOE_httpServer.axf

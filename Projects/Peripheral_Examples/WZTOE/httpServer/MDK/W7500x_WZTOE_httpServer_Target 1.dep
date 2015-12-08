@@ -1,0 +1,474 @@
+Dependencies for Project 'W7500x_WZTOE_httpServer', Target 'Target 1': (DO NOT MODIFY !)
+F (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM\startup_W7500x.s)(0x555C3230)(--cpu Cortex-M0 --li -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM--list .\list\startup_w7500x.lst --xref -o .\obj\startup_w7500x.o --depend .\obj\startup_w7500x.d)
+F (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\src\W7500x_crg.c)(0x555C3236)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\w7500x_crg.o --omf_browse .\obj\w7500x_crg.crf --depend .\obj\w7500x_crg.d)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\src\W7500x_gpio.c)(0x555C3236)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\w7500x_gpio.o --omf_browse .\obj\w7500x_gpio.crf --depend .\obj\w7500x_gpio.d)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\src\W7500x_uart.c)(0x555C3236)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\w7500x_uart.o --omf_browse .\obj\w7500x_uart.crf --depend .\obj\w7500x_uart.d)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\src\W7500x_wztoe.c)(0x555C3236)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\w7500x_wztoe.o --omf_browse .\obj\w7500x_wztoe.crf --depend .\obj\w7500x_wztoe.d)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\src\W7500x_pwm.c)(0x555C3236)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\w7500x_pwm.o --omf_browse .\obj\w7500x_pwm.crf --depend .\obj\w7500x_pwm.d)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\system_W7500x.c)(0x555C3230)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\system_w7500x.o --omf_browse .\obj\system_w7500x.crf --depend .\obj\system_w7500x.d)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\main.c)(0x555D15B3)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\retarget.c)(0x555C3237)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x52FDC46E)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x52FDC46E)
+F (..\W7500x_it.c)(0x555C3237)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\w7500x_it.o --omf_browse .\obj\w7500x_it.crf --depend .\obj\w7500x_it.d)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\ioLibrary\Ethernet\socket.c)(0x555C3237)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\socket.o --omf_browse .\obj\socket.crf --depend .\obj\socket.d)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.c)(0x555C3237)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\wizchip_conf.o --omf_browse .\obj\wizchip_conf.crf --depend .\obj\wizchip_conf.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.c)(0x555C3237)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\httpparser.o --omf_browse .\obj\httpparser.crf --depend .\obj\httpparser.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.c)(0x555C3237)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\httpserver.o --omf_browse .\obj\httpserver.crf --depend .\obj\httpserver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDC46E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.c)(0x555D149A)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\httputil.o --omf_browse .\obj\httputil.crf --depend .\obj\httputil.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDC46E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.c)(0x555C3237)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\w7500x_miim.o --omf_browse .\obj\w7500x_miim.crf --depend .\obj\w7500x_miim.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
+F (..\..\..\..\..\ioLibrary\Application\loopback\loopback.c)(0x555C3237)(-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Source\ARM -I..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include -I..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc -I..\..\..\..\..\Libraries\CMSIS\Include -I..\ -I..\..\..\..\..\ioLibrary\MDIO -I..\..\..\..\..\ioLibrary\Ethernet -I..\..\..\..\..\ioLibrary\Application\loopback -I..\..\..\..\..\ioLibrary\Internet\httpServer-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ARM-DCORTEX_M0 -DUSE_STDPERIPH_DRIVER -o .\obj\loopback.o --omf_browse .\obj\loopback.crf --depend .\obj\loopback.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Application\loopback\loopback.h)(0x555C3237)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDC46E)
+I (..\..\..\..\..\ioLibrary\Ethernet\socket.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Ethernet\wizchip_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h)(0x555C3230)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x555C3235)
+I (..\..\..\..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h)(0x555C3230)
+I (..\W7500x_conf.h)(0x555C3237)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_crg.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_exti.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_dualtimer.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_i2c.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_pwm.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_rng.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_ssp.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_uart.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wdt.h)(0x555C3236)
+I (..\..\..\..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h)(0x555C3A59)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpServer.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpParser.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\httpUtil.h)(0x555C3237)
+I (..\..\..\..\..\ioLibrary\Internet\httpServer\webpage.h)(0x555D1713)
+I (..\..\..\..\..\ioLibrary\MDIO\W7500x_miim.h)(0x555C3237)
